@@ -12,7 +12,7 @@ export function Logo() {
     height={30}
     width={30}
     />
-    <p className="text-lg text-neutral-900 pb-1">Collab</p>
+    <p className="font-semibold text-neutral-900 pb-1">Collab</p>
         </div>
     </Link>
   )
