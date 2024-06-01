@@ -2,12 +2,13 @@ import { Plus } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { Button } from "@/components/ui/button";
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
+import { MobileSidebar } from "./MobileSidebar";
 
 
 export function Navbar() {
   return (
     <nav className="fixed z-50 top-0 px-4 h-14 border-b w-full shadow-sm bg-white flex items-center">
-        {/*mobile sidebar*/}
+        <MobileSidebar/>
         <div className="flex items-center gap-x-4">
             <div className="hidden md:flex">
                 <Logo/>
