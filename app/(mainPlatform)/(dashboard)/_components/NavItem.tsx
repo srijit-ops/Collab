@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Activity, CreditCard, Layout, Settings } from "lucide-react";
 import { useRouter, usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
 
 export type Organization={
     id:string;
@@ -90,4 +91,15 @@ export function NavItem({isExpanded, isActive, organization, onExpand}:NavItemPr
         </AccordionContent>
     </AccordionItem>
   )
+}
+
+NavItem.Skeleton= function SkeletonnavItem(){
+    return (
+        <div className="flex items-center gap-x-2">
+            <div className="w-10 h-10 relative shrink-0">
+                <Skeleton className="h-full w-full absolute"/>
+            </div>
+            <Skeleton className="h-10 w-full"/>
+        </div>
+    )
 }
