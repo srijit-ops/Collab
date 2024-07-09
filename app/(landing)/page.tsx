@@ -15,7 +15,7 @@ function page() {
             <div className='text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 rounded-md pb-4 text-white px-4 p-2 w-fit'>Work forward.</div>
         </div>
         <div className='text-sm md:text-xl text-neutral-400 mt-4 text-center max-w-xs md:max-w-2xl mx-auto'>
-            Collaborate, manage projects, and reach new productivity peaks. Collaborate, manage projects, and reach new productivity peaks. Collaborate, manage projects, and reach new productivity peaks.
+            Collaborate, Manage projects, and reach new productivity peaks. Collaborate, manage projects, and reach new productivity peaks. Collaborate, manage projects, and reach new productivity peaks.
         </div>
         <Button className='mt-6' size="lg" asChild>
             <Link href={"/sign-up"}>
